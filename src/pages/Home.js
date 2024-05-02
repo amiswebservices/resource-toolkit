@@ -9,16 +9,16 @@ export default function Home(){
       <>
       <Header />
       <Container>
-        <Row>
+        {/* <Row>
             <Col>
                 <img src={image} className='w-100' alt="disablity is not the limit" />
             </Col>
-        </Row> 
+        </Row>  */}
         <Row className="mt-2 text-center">
             <Col className="bg-light shadow border p-5">
                 <h5>A toolkit for professionals</h5>
-                <p>This toolkit provides a number of resources, articles, activities, and assessments from different sources to help educate and guide professionals working with transition age youth with substance use disorders who are transitioning into employment. It is organized into pages based on topic, including educational information regarding working with transition age youth with substance use disorders.</p>
-                <Link to="/educational-resources" className="btn btn-warning btn-md">Let's Begin!</Link>
+                <p>our toolkit aims to bridge the gap between individuals with disabilities and employers, creating opportunities for meaningful employment and fostering inclusive work environments. Together, we can break down barriers, promote diversity, and empower individuals with disabilities to achieve their dreams. Join us in building a more inclusive workforce where everyone has the opportunity to thrive</p>
+                <Link to="/about" className="btn btn-warning btn-md">Let's Begin!</Link>
             </Col>
         </Row> 
       </Container>
